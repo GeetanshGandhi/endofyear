@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=DynaPuff:wght@400..700&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+.question-container {
+    height: 100vh;
+    background-image: linear-gradient(120deg, #ff5ee1, rgb(255, 178, 255), white, #ff9595, rgb(255, 131, 131));
+    padding: 20px;
+}
+.ques-head  {
+    font: 30px "DynaPuff", cursive;
+    color: rgb(116, 0, 73);
+}
+.ques-points {
+    padding: 10px 0 0 20px;
+    font: 20px "DynaPuff", cursive;
+    color: rgb(172, 0, 109)
+}
+.ques-subhead {
+    text-align: center;
+    margin: 10px 0 0 0;
+    font: 17px "Shantell Sans", sans-serif;
+}
+.question {
+    margin: 20px 0 0 0;
+    text-align: center;
+    font: 25px "Poppins", sans-serif;
+    line-height: 25px;
+    color: rgb(85, 0, 72);
+}
+#answer1, #answer2 {
+    margin: 5px 0 10px 0;
+    padding: 3px 5px;
+    width: 100px;
+    font: 20px monospace;
+    background-color: rgba(255, 249, 255, 0.491);
+    border: 2px solid rgb(155, 0, 98);
+    border-radius: 10px;
+}
+.proceed-btn {
+    margin: 20px 0 0 0;
+    padding: 5px 10px;
+    font: 20px "Ubuntu";
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 79, 191);
+    border-radius: 10px;
+}
+.pakka-btn {
+    margin: 20px 0 0 0;
+    padding: 5px 10px;
+    font: 25px "Ubuntu";
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(143, 0, 91);
+    border-radius: 10px;
+    display: none;
+}
+.error {
+    display: none;
+    text-align: center;
+    padding: 3px 10px;
+    font: 17px "Ubuntu";
+    font-weight: bold;
+    background-color: rgb(225, 0, 0);
+    color: white;
+    border-radius: 10px;
+}
